@@ -1,0 +1,333 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/772110be970c83972ea266933876b066/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cf80118e78d0b34c33c8c12eed76961e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/16b48356f96431093da5e722a6dfa202/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/2e1b21c45bfc20eeb0b62c7ca3c37d62/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/08acabe5c76ab0f9c73c065d1ee49895/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mahbub/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4667d15520dac476c1c54dff8e131381/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5307cb69117d2e9d004114103dff7039/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/758d594d2df51ff8257c4ca18d6d9377/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/08eea5d96bb57a751874299c779288ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/538cfc6a8e996d64df570a6677240bf1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d219a5a79f2d88bd95c139dadba3ff6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a2bef1aee3b029dc84bcef2e21657fb0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7a8f776bdd648ed36288660a35890ba1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ad46bbb39ac557cbf6245909816cce0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/21bb40b7fb10a07ef788846a0b07bc7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a4d25f5cc9bdc0ac743b442fc21e32d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c6291d9cc246f5d966b82848d1d6d00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/68e4fd051ee90f3b9f6f0477d78df27b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cedf2079fb3ba0d018ccc5b1d518d3d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3e7e42696595bd2d3e9ef7c412975c47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/03b09d47622ff2f067ee54e999ca6d5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:exifinterface:27.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/80b4d999655fbccf046ca604e69ed48a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fca632f9e9da740e8db77347bc226ab1/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/367f73a95409c51b32fc083e06dca5ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4ac0d74970b66c0a83d60f4405563f68/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c53e438ddbac3fe60d5b3ef18f187bd7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c18de058973c73e8e5f2dd72a41947d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3c710810e9b5fcb50cb1c3bfd1b5ee7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56d257bc519485821e4077586825407a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e9e79ab9705afc452708faa5b827cb5b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/19322130a2698818b508b87298492c84/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7aed924d22cf7004c6ca8b800b16585/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/802f6537114967b4cb4bac9614964f24/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:1-76:12
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:12:5-80
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:11:5-81
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:13:22-65
+uses-feature#android.hardware.camera
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:20:5-22:35
+	android:required
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:22:9-32
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:21:9-47
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:24:5-26:67
+	android:value
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:26:9-64
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:25:9-54
+meta-data#com.google.android.gms.version
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:27:5-29:65
+	android:value
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:29:9-62
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:28:9-54
+application
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:31:5-74:19
+MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:22:5-20
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:14:5-24:19
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:14:5-24:19
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/2e1b21c45bfc20eeb0b62c7ca3c37d62/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/2e1b21c45bfc20eeb0b62c7ca3c37d62/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mahbub/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4667d15520dac476c1c54dff8e131381/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mahbub/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4667d15520dac476c1c54dff8e131381/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fca632f9e9da740e8db77347bc226ab1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fca632f9e9da740e8db77347bc226ab1/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:35:9-41
+	android:hardwareAccelerated
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:33:9-44
+	android:roundIcon
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:37:9-54
+	android:largeHeap
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:36:9-33
+	android:icon
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:34:9-43
+	android:allowBackup
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:39:9-40
+activity#eee.cu.ac.bd.smartcity.ContactActivity
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:40:9-62
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:40:19-50
+activity#eee.cu.ac.bd.smartcity.MainActivity
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:41:9-44:68
+	android:label
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:43:13-45
+	android:theme
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:42:13-41
+activity#eee.cu.ac.bd.smartcity.writepost
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:45:9-47:47
+	android:label
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:46:13-38
+activity#eee.cu.ac.bd.smartcity.feeds
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:48:9-50:39
+	android:label
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:49:13-34
+activity#eee.cu.ac.bd.smartcity.MapsActivity
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:63:9-65:59
+	android:label
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:64:13-41
+activity#eee.cu.ac.bd.smartcity.details
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:66:9-45
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:66:19-42
+activity#eee.cu.ac.bd.smartcity.StartActivity
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:67:9-73:20
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:67:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:68:13-72:29
+action#android.intent.action.MAIN
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml:71:27-74
+uses-sdk
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:20:5-44
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/772110be970c83972ea266933876b066/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/772110be970c83972ea266933876b066/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cf80118e78d0b34c33c8c12eed76961e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cf80118e78d0b34c33c8c12eed76961e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/16b48356f96431093da5e722a6dfa202/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/16b48356f96431093da5e722a6dfa202/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/2e1b21c45bfc20eeb0b62c7ca3c37d62/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/2e1b21c45bfc20eeb0b62c7ca3c37d62/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/08acabe5c76ab0f9c73c065d1ee49895/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/08acabe5c76ab0f9c73c065d1ee49895/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mahbub/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4667d15520dac476c1c54dff8e131381/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mahbub/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4667d15520dac476c1c54dff8e131381/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5307cb69117d2e9d004114103dff7039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5307cb69117d2e9d004114103dff7039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/758d594d2df51ff8257c4ca18d6d9377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/758d594d2df51ff8257c4ca18d6d9377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/08eea5d96bb57a751874299c779288ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/08eea5d96bb57a751874299c779288ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/538cfc6a8e996d64df570a6677240bf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/538cfc6a8e996d64df570a6677240bf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d219a5a79f2d88bd95c139dadba3ff6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d219a5a79f2d88bd95c139dadba3ff6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a2bef1aee3b029dc84bcef2e21657fb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a2bef1aee3b029dc84bcef2e21657fb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7a8f776bdd648ed36288660a35890ba1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7a8f776bdd648ed36288660a35890ba1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ad46bbb39ac557cbf6245909816cce0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ad46bbb39ac557cbf6245909816cce0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/21bb40b7fb10a07ef788846a0b07bc7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/21bb40b7fb10a07ef788846a0b07bc7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a4d25f5cc9bdc0ac743b442fc21e32d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a4d25f5cc9bdc0ac743b442fc21e32d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c6291d9cc246f5d966b82848d1d6d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c6291d9cc246f5d966b82848d1d6d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/68e4fd051ee90f3b9f6f0477d78df27b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/68e4fd051ee90f3b9f6f0477d78df27b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cedf2079fb3ba0d018ccc5b1d518d3d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cedf2079fb3ba0d018ccc5b1d518d3d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3e7e42696595bd2d3e9ef7c412975c47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3e7e42696595bd2d3e9ef7c412975c47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/03b09d47622ff2f067ee54e999ca6d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/03b09d47622ff2f067ee54e999ca6d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/80b4d999655fbccf046ca604e69ed48a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/80b4d999655fbccf046ca604e69ed48a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fca632f9e9da740e8db77347bc226ab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fca632f9e9da740e8db77347bc226ab1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/367f73a95409c51b32fc083e06dca5ff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/367f73a95409c51b32fc083e06dca5ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4ac0d74970b66c0a83d60f4405563f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4ac0d74970b66c0a83d60f4405563f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c53e438ddbac3fe60d5b3ef18f187bd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c53e438ddbac3fe60d5b3ef18f187bd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c18de058973c73e8e5f2dd72a41947d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c18de058973c73e8e5f2dd72a41947d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3c710810e9b5fcb50cb1c3bfd1b5ee7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3c710810e9b5fcb50cb1c3bfd1b5ee7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56d257bc519485821e4077586825407a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56d257bc519485821e4077586825407a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e9e79ab9705afc452708faa5b827cb5b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e9e79ab9705afc452708faa5b827cb5b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/19322130a2698818b508b87298492c84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/19322130a2698818b508b87298492c84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7aed924d22cf7004c6ca8b800b16585/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7aed924d22cf7004c6ca8b800b16585/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/802f6537114967b4cb4bac9614964f24/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/802f6537114967b4cb4bac9614964f24/AndroidManifest.xml:20:5-44
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/AndroidManifest.xml
+provider#android.support.v4.content.FileProvider
+ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:17:13-60
+	android:exported
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:16:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:20:13-22:58
+	android:resource
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:22:17-55
+	android:name
+		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:21:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.2.0.aar/8574dde9e2d4c70059bc1fc150a6c8e7/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/AndroidManifest.xml:20:19-85

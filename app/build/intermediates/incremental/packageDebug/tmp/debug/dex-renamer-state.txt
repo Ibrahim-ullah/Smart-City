@@ -1,0 +1,4 @@
+#Sun Apr 07 18:08:14 BDT 2019
+base.0=/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
