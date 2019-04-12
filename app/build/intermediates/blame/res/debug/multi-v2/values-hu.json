@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/148372479f4bdbf167be32fa997444e5/res/values-hu/values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ad46bbb39ac557cbf6245909816cce0e/res/values/values.xml",
@@ -23,13 +23,13 @@
                     }
                 },
                 {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/res/values/dimens.xml",
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/main/res/values/dimens.xml",
                     "from": {
                         "startLines": "2,3,6,5,4",
                         "startColumns": "4,4,4,4,4",
-                        "startOffsets": "88,146,311,261,202",
+                        "startOffsets": "90,149,317,266,206",
                         "endColumns": "57,55,41,49,58",
-                        "endOffsets": "141,197,348,306,256"
+                        "endOffsets": "143,200,354,311,260"
                     },
                     "to": {
                         "startLines": "336,337,394,456,457",
@@ -54,23 +54,6 @@
                         "startOffsets": "268022",
                         "endColumns": "967",
                         "endOffsets": "268985"
-                    }
-                },
-                {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "12,21,5,17,3,4,10,11,18,8,14,9,7,16,13,20,6,19,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "468,865,154,687,56,103,374,420,735,286,562,330,242,647,518,826,200,778,607",
-                        "endColumns": "49,49,45,47,46,50,45,47,42,43,44,43,43,39,43,38,41,47,39",
-                        "endOffsets": "513,910,195,730,98,149,415,463,773,325,602,369,281,682,557,860,237,821,642"
-                    },
-                    "to": {
-                        "startLines": "144,145,158,159,160,161,162,163,180,181,182,202,203,204,207,231,252,257,260",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "7534,7584,8524,8570,8618,8665,8716,8762,10136,10179,10223,11577,11621,11665,11840,13329,14805,15133,15302",
-                        "endColumns": "49,49,45,47,46,50,45,47,42,43,44,43,43,39,43,38,41,47,39",
-                        "endOffsets": "7579,7629,8565,8613,8660,8711,8757,8805,10174,10218,10263,11616,11660,11700,11879,13363,14842,15176,15337"
                     }
                 },
                 {
@@ -131,6 +114,23 @@
                     }
                 },
                 {
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "12,21,5,17,3,4,10,11,18,8,14,9,7,16,13,20,6,19,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "480,886,159,704,59,107,384,431,753,294,576,339,249,663,531,846,206,797,622",
+                        "endColumns": "49,49,45,47,46,50,45,47,42,43,44,43,43,39,43,38,41,47,39",
+                        "endOffsets": "525,931,200,747,101,153,425,474,791,333,616,378,288,698,570,880,243,840,657"
+                    },
+                    "to": {
+                        "startLines": "144,145,158,159,160,161,162,163,180,181,182,202,203,204,207,231,252,257,260",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7534,7584,8524,8570,8618,8665,8716,8762,10136,10179,10223,11577,11621,11665,11840,13329,14805,15133,15302",
+                        "endColumns": "49,49,45,47,46,50,45,47,42,43,44,43,43,39,43,38,41,47,39",
+                        "endOffsets": "7579,7629,8565,8613,8660,8711,8757,8805,10174,10218,10263,11616,11660,11700,11879,13363,14842,15176,15337"
+                    }
+                },
+                {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,20",
@@ -182,23 +182,6 @@
                     }
                 },
                 {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/res/values/drawables.xml",
-                    "from": {
-                        "startLines": "1,2,4,6,5,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "75,163,347,521,435,253",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "158,248,430,600,516,342"
-                    },
-                    "to": {
-                        "startLines": "495,496,497,498,499,500",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "30567,30655,30745,30833,30917,31003",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "30650,30740,30828,30912,30998,31092"
-                    }
-                },
-                {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a2bef1aee3b029dc84bcef2e21657fb0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -213,23 +196,6 @@
                         "startOffsets": "31450,31780,31919,31966,32021,32615,32669,32721,32770,32831",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "31485,31818,31961,32016,32061,32664,32716,32765,32826,32876"
-                    }
-                },
-                {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "6,1,4,3,7,8",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "216,16,139,65,269,321",
-                        "endColumns": "52,47,75,73,51,52",
-                        "endOffsets": "264,59,210,134,316,369"
-                    },
-                    "to": {
-                        "startLines": "594,595,638,639,649,650",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "36721,36774,42231,42307,43446,43498",
-                        "endColumns": "52,47,75,73,51,52",
-                        "endOffsets": "36769,36817,42302,42376,43493,43546"
                     }
                 },
                 {
@@ -252,33 +218,31 @@
                     }
                 },
                 {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/debug/res/values/google_maps_api.xml",
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/main/res/values/drawables.xml",
                     "from": {
-                        "startLines": "22",
-                        "startColumns": "4",
-                        "startOffsets": "890",
-                        "endLines": "24",
-                        "endColumns": "13",
-                        "endOffsets": "1037"
+                        "startLines": "1,2,4,6,5,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "76,165,351,527,440,256",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "159,250,434,606,521,345"
                     },
                     "to": {
-                        "startLines": "633",
-                        "startColumns": "4",
-                        "startOffsets": "41850",
-                        "endLines": "635",
-                        "endColumns": "13",
-                        "endOffsets": "41997"
+                        "startLines": "495,496,497,498,499,500",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "30567,30655,30745,30833,30917,31003",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "30650,30740,30828,30912,30998,31092"
                     }
                 },
                 {
-                    "source": "/home/mahbub/Desktop/Shonar-Bangla-Smart-City-Ibrahim-ullah-patch-1/app/src/main/res/values/styles.xml",
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,15,10,17",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "54,525,374,617",
+                        "startOffsets": "57,540,384,634",
                         "endLines": "8,15,13,17",
                         "endColumns": "12,90,12,80",
-                        "endOffsets": "368,611,519,693"
+                        "endOffsets": "376,626,532,710"
                     },
                     "to": {
                         "startLines": "660,666,667,671",
@@ -342,6 +306,42 @@
                         "endLines": "228,229,341,342,343,344,345,346,347,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,501,502,510,511,523,524,525,526,527,531,554,648,2348,2352,2354,2360,2362,2725,2726,3793,3992,4024,4062,4069",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "13172,13235,20808,20876,20948,21018,21079,21153,21226,28262,28323,28385,28449,28511,28572,28640,28740,28800,28866,28939,29008,29065,29117,29179,31164,31240,31620,31655,32245,32306,32363,32397,32432,32610,33958,43441,156880,157081,157257,157641,157836,182181,182248,243456,260557,262622,264584,264961"
+                    }
+                },
+                {
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "6,1,4,3,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "222,17,143,68,276,329",
+                        "endColumns": "52,47,75,73,51,52",
+                        "endOffsets": "270,60,214,137,323,377"
+                    },
+                    "to": {
+                        "startLines": "594,595,638,639,649,650",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "36721,36774,42231,42307,43446,43498",
+                        "endColumns": "52,47,75,73,51,52",
+                        "endOffsets": "36769,36817,42302,42376,43493,43546"
+                    }
+                },
+                {
+                    "source": "/home/mahbub/AndroidStudioProjects/Smart-City/app/src/debug/res/values/google_maps_api.xml",
+                    "from": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "912",
+                        "endLines": "24",
+                        "endColumns": "13",
+                        "endOffsets": "1061"
+                    },
+                    "to": {
+                        "startLines": "633",
+                        "startColumns": "4",
+                        "startOffsets": "41850",
+                        "endLines": "635",
+                        "endColumns": "13",
+                        "endOffsets": "41997"
                     }
                 }
             ]

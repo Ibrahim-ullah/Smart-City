@@ -94,6 +94,7 @@
         android:background="@color/skyblue"
         android:layout_margin="10dp"
         android:text="Upload Image"
+        android:onClick="uploader"
         android:textColor="@android:color/white" />
 
     <Button

@@ -26,6 +26,7 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -62,9 +63,9 @@ public class writepost extends AppCompatActivity {
     public String bits;
     public ImagePicker imagePicker;
     public ImageView im;
-    public TextView imginfo;
     public Bitmap image_bit;
-    public ProgressDialog dialog;
+    public String encodedImage;
+
 
 
 
@@ -92,25 +93,6 @@ public class writepost extends AppCompatActivity {
 
         im = (ImageView) findViewById(R.id.im);
         final AlertDialog.Builder builder=null;
-
-
-
-
-
-
-        buttonImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Log.v("im","image ashche");
-                //******Create intenet to open image application like gallery and google photos
-                Intent galleryIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                // Start the intent
-                startActivityForResult(galleryIntent, 2);
-
-            }
-        });
-
 
 
 
@@ -154,6 +136,19 @@ public class writepost extends AppCompatActivity {
                                 loading.dismiss();
 
                                 Toast.makeText(writepost.this,"An unexpected error occurred",Toast.LENGTH_LONG).show();
+                                String body;
+                                //get status code here
+                                String statusCode = String.valueOf(error.networkResponse.statusCode);
+                                //get response body and parse with appropriate encoding
+                                if(error.networkResponse.data!=null) {
+                                    try {
+                                        body = new String(error.networkResponse.data,"UTF-8");
+                                        Log.i("Error Body",body);
+                                    } catch (UnsupportedEncodingException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+
 
                             }
                         }){
@@ -167,9 +162,11 @@ public class writepost extends AppCompatActivity {
                         params.put("description",getDescription);
                         params.put("latitude", getLatitude);
                         params.put("longitude", getLongitude);
-                        params.put("imgData","No no Image");
+                        params.put("imgData",encodedImage);
                         return params;
                     }
+
+
                 };
 
                 MySingleton.getInstance(writepost.this).addTorequestrue(stringRequest);
@@ -186,92 +183,6 @@ public class writepost extends AppCompatActivity {
 
 
 
-//
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//       super.onActivityResult(requestCode, resultCode, data);
-//
-//
-//
-//        try{
-//
-//            switch (requestCode) {
-//
-//                case (1):
-//                {
-//                        if (resultCode == RESULT_OK) {
-//                            Place place = PlacePicker.getPlace(data, this);
-//                            String locate = String.format("%s %s", place.getName(), place.getAddress());
-//                            LatLng ltlng = place.getLatLng();
-//                            double latit = ltlng.latitude;
-//                            String latitude = String.format("%s", latit);
-//                            double longit = ltlng.longitude;
-//                            String longitude = String.format("%s", longit);
-//
-//                            TextView locationName = (TextView) findViewById(R.id.locationName);
-//                            TextView location = (TextView) findViewById(R.id.location);
-//                            locationName.setText("Location Name: ");
-//                            location.setText(locate);
-//
-//                            TextView lats = (TextView) findViewById(R.id.lats);
-//                            TextView setLat = (TextView) findViewById(R.id.setlats);
-//                            lats.setText("Latitude:");
-//                            setLat.setText(latitude);
-//
-//                            TextView longs = (TextView) findViewById(R.id.longs);
-//                            TextView setlongs = (TextView) findViewById(R.id.setlongs);
-//                            longs.setText("Logitude:");
-//                            setlongs.setText(longitude);
-//
-//                            Button mapButton = (Button) findViewById(R.id.mapButton);
-//                            mapButton.setText("Edit Location");
-//                            Log.i(TAG, "Lat: " + latitude + " Lon: " + longitude);
-//                    }
-//                }
-//                break;
-//
-//                case (2):
-//                {
-//                    // do this if request code is 11.
-//                    //when an image is picked
-//
-//                    if (resultCode == RESULT_OK && null != data) {
-//
-//                        Uri filePath = data.getData();
-//                        bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), filePath);
-//                        try {
-//                            //Getting the Bitmap from Gallery
-//                             bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), filePath);
-//
-//
-//                            //Setting the Bitmap to ImageView
-//
-//
-//                            ImageView img=(ImageView) findViewById(R.id.imageView);
-//
-//
-//                            test=dbBitmapUtility.BitMapToString(bitmap);
-//                            Log.i("imagedata: ",test);
-//                            img.setImageBitmap(bitmap);
-//
-//
-//                        } catch (IOException e) {
-//                            e.printStackTrace();
-//                        }
-//
-//
-//                    }
-//                }
-//                break;
-//            }
-//
-//
-//
-//        } catch (Exception e){
-//            e.printStackTrace();
-//            Toast.makeText(getApplicationContext(),"Somethig went embarassing",Toast.LENGTH_LONG).show();
-//        }
-//    }
 
     public void uploader(View view){
         imagePicker = new ImagePicker();
@@ -322,9 +233,9 @@ public class writepost extends AppCompatActivity {
                 }
 
                 break;
-                case (2): {
+                case (ImagePicker.SELECT_IMAGE): {
 
-                    if (requestCode == ImagePicker.SELECT_IMAGE && resultCode == Activity.RESULT_OK) {
+                    if (resultCode == Activity.RESULT_OK) {
                         //Add compression listener if withCompression is set to true
                         imagePicker.addOnCompressListener(new ImageCompressionListener() {
                             @Override
@@ -352,8 +263,9 @@ public class writepost extends AppCompatActivity {
                                 String img_to_string = Base64.encodeToString(img_ready, Base64.DEFAULT);
                                 String out = "The image height is " + Integer.toString(height) + " and width is " + Integer.toString(width) +
                                         " and the size " + Integer.toString(sizeBytes);
-                                Log.v("Image Encoded", img_to_string);
-                                imginfo.setText(out);
+                                Log.v("Image size", out);
+
+
                             }
                         });
                     }
@@ -395,7 +307,7 @@ public class writepost extends AppCompatActivity {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bmp.compress(Bitmap.CompressFormat.JPEG, 100, baos);
         byte[] imageBytes = baos.toByteArray();
-        String encodedImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);
+        encodedImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);
        Log.i("encodedImage",encodedImage);
         return encodedImage;
     }
