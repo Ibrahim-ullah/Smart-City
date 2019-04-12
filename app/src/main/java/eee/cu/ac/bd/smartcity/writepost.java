@@ -276,8 +276,14 @@ public class writepost extends AppCompatActivity {
                     final String filePath = getPathFromURI(selectedImageUri);
                     if (filePath != null) {//filePath will return null if compression is set to true
                         Bitmap selectedImage = BitmapFactory.decodeFile(filePath);
-                        im.setImageBitmap(selectedImage);
-                        bits = getStringImage(selectedImage);
+                        int bitWidth = selectedImage.getWidth();
+                        int outWidth = 200;
+                        float rate = bitWidth / outWidth;
+                        int bitHeight = selectedImage.getHeight() / (int) rate;
+                        Bitmap resized = Bitmap.createScaledBitmap(selectedImage, outWidth, bitHeight, true);
+                        image_bit = resized;
+                        im.setImageBitmap(resized);
+                        bits = getStringImage(resized);
                         Log.e("encodedimage",bits);
 
                     }
