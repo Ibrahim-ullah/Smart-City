@@ -70,12 +70,14 @@
         android:layout_width="match_parent"
         android:padding="25dp"
         android:layout_height="300dp"
+        android:onClick="mapactivity"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <WebView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:id="@+id/wb"></WebView>
+        android:id="@+id/wb"
+        ></WebView>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,5 +1,6 @@
 package eee.cu.ac.bd.smartcity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -10,6 +11,7 @@ import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +44,7 @@ public class details extends AppCompatActivity {
     public static String Title;
     public static String La;
     public static String Lo;
+    public static String image_url;
     private GoogleMap mMap;
 
 
@@ -62,7 +65,7 @@ public class details extends AppCompatActivity {
         final TextView latlong = (TextView) findViewById(R.id.dlatlong);
 
 
-        String url = "https://roomy.pythonanywhere.com/rumysecuritytest/default/feeds.json?sigle="+fint;
+        String url = "https://roomy.pythonanywhere.com/rumysecuritytest/default/feeds.json?single="+fint;
         final ProgressDialog loading = ProgressDialog.show(details.this, "Loading Feeds", "Please wait", false, false);
         JsonObjectRequest jsObjRequest = new JsonObjectRequest
                 (Request.Method.GET, url, " ",
@@ -86,6 +89,9 @@ public class details extends AppCompatActivity {
                                             La = feed.getString("latitude");
                                             Lo = feed.getString("longitude");
                                             Title = feed.getString("issue");
+                                            image_url = feed.getString("img_url");
+                                            image_url = "https://roomy.pythonanywhere.com" + image_url;
+                                            Log.i("Image URL", image_url);
 
                                             name.setText(Name);
                                             location.setText(Location);
@@ -122,5 +128,9 @@ public class details extends AppCompatActivity {
         MySingleton.getInstance(details.this).addTorequestrue(jsObjRequest);
 
 
+    }
+    public void mapactivity(View view){
+        Intent i=new Intent(this,MapsActivity.class);
+        startActivity(i);
     }
 }

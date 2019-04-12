@@ -5,36 +5,41 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.2"
-    timestamp="1555096614688"
+    timestamp="1555105038356"
     token="4944891461054092564"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="188" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="42" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
+
+    <artifact
+        location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1555096457482"
+        timestamp="1555104223046"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -49,10 +54,10 @@
             location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -69,7 +74,12 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1555096614688"
-        verifier="COLD_SWAP_REQUESTED" />
+        ir-eligibility="COMPATIBLE"
+        timestamp="1555105038356"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>
