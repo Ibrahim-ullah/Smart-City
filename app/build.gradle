@@ -24,6 +24,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.squareup.picasso:picasso:2.5.2'
     //noinspection GradleCompatible
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'cz.msebera.android:httpclient:4.4.1.1'

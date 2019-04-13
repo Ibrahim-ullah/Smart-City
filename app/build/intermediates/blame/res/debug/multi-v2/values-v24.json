@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d219a5a79f2d88bd95c139dadba3ff6/res/values-v24/values-v24.xml",

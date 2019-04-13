@@ -1,5 +1,6 @@
 package eee.cu.ac.bd.smartcity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,6 +14,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +28,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.squareup.picasso.Picasso;
 
 
 import org.json.JSONArray;
@@ -45,6 +48,7 @@ public class details extends AppCompatActivity {
     public static String La;
     public static String Lo;
     public static String image_url;
+    Context context;
     private GoogleMap mMap;
 
 
@@ -52,6 +56,7 @@ public class details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        context = details.this;
         setContentView(R.layout.activity_details);
         Bundle extra = getIntent().getExtras();
         final String Id = extra.getString("id");
@@ -63,6 +68,7 @@ public class details extends AppCompatActivity {
         final TextView description = (TextView) findViewById(R.id.ddescription);
         final TextView title = (TextView) findViewById(R.id.dtitle);
         final TextView latlong = (TextView) findViewById(R.id.dlatlong);
+        final ImageView imageView = findViewById(R.id.imageView);
 
 
         String url = "https://roomy.pythonanywhere.com/rumysecuritytest/default/feeds.json?single="+fint;
@@ -92,6 +98,8 @@ public class details extends AppCompatActivity {
                                             image_url = feed.getString("img_url");
                                             image_url = "https://roomy.pythonanywhere.com" + image_url;
                                             Log.i("Image URL", image_url);
+
+                                    Picasso.with(context).load(image_url).into(imageView);
 
                                             name.setText(Name);
                                             location.setText(Location);

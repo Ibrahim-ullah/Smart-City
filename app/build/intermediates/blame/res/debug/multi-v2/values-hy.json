@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahbub/AndroidStudioProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-places-9.2.0.aar/36cfd4445c71b36144e14e6c0805ab48/res/values-hy/values.xml",
