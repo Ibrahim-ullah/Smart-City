@@ -25,6 +25,8 @@ import org.json.JSONObject;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    double Latitude;
+    double Longitude;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,17 +68,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                                         JSONObject feed= feedjson.getJSONObject(i);
 
-                                        double latitude=feed.getDouble("latitude");
-                                        double longitude=feed.getDouble("longitude");
+                                        Latitude = + feed.getDouble("latitude");
+                                        Longitude = feed.getDouble("longitude");
                                         String spot=feed.getString("location");
                                         // Add a marker in Sydney and move the camera
-                                        LatLng pointers = new LatLng(latitude, longitude);
+                                        LatLng pointers = new LatLng(Latitude, Longitude);
+                                        Log.i("emon", String.valueOf(Latitude));
                                         mMap.addMarker(new MarkerOptions().position(pointers).title(spot));
 
                                     }
 
 
-                                    LatLng set=new LatLng(23.9741894,90.2226902);
+                                    LatLng set=new LatLng(Latitude,Longitude);
 
                                     mMap.animateCamera( CameraUpdateFactory.newLatLngZoom(set,9.5f));
 
