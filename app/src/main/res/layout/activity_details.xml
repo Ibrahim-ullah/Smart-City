@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="1.5"
         android:textSize="20sp"
         android:id="@+id/dtitle"
         android:text="Problem Title"
@@ -37,7 +37,7 @@
         android:id="@+id/dname"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="1.5"
         android:paddingTop="10dp"
         android:text="name"
         android:textAlignment="textStart" />
@@ -47,10 +47,19 @@
         android:id="@+id/dlatlong"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="1.5"
         android:paddingTop="10dp"
         android:text="Latitude"
         android:textAlignment="textStart" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:id="@+id/Dlo"
+        android:text="location"
+        android:textAlignment="textStart"/>
 
     <TextView
         android:id="@+id/ddescription"
@@ -61,7 +70,75 @@
         android:text="Description"
         android:textAlignment="textStart" />
 
+    <TextView
 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart" />
 
 
     <LinearLayout
@@ -69,29 +146,29 @@
         android:layout_height="match_parent"
 
         android:paddingTop="20dp">
+
         <Button
             android:id="@+id/agreed"
-            android:layout_height="wrap_content"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Agreed" />
 
 
         <Button
             android:id="@+id/show_map"
-            android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:onClick="mapactivity"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mapactivity"
             android:text="Show Location " />
 
         <Button
             android:id="@+id/notify"
-            android:layout_height="wrap_content"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Notify" />
-
 
 
     </LinearLayout>

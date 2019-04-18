@@ -22,7 +22,6 @@
         Google Maps Android API v2, but you must specify either coarse or fine
         location permissions for the 'MyLocation' functionality.
     -->
-
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -50,6 +49,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="eee.cu.ac.bd.smartcity.Help" />
         <activity android:name="eee.cu.ac.bd.smartcity.ContactActivity" />
         <activity
             android:name="eee.cu.ac.bd.smartcity.MainActivity"

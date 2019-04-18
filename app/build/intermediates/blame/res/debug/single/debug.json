@@ -4,20 +4,20 @@
         "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_plus_signin_btn_text_dark_disabled.9.png.flat",
-        "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/res/drawable-xhdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal.9.png.flat",
         "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/menu_toolbar_menu.xml.flat",
-        "source": "/home/mahbub/AndroidProjects/Smart-City/app/src/main/res/menu/toolbar_menu.xml"
+        "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_plus_signin_btn_text_dark_disabled.9.png.flat",
+        "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/res/drawable-xhdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_icon_dark_disabled.9.png.flat",
         "source": "/home/mahbub/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/1316ffc586473b7f21beb345296829ca/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/menu_toolbar_menu.xml.flat",
+        "source": "/home/mahbub/AndroidProjects/Smart-City/app/src/main/res/menu/toolbar_menu.xml"
     },
     {
         "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
@@ -1030,6 +1030,10 @@
     {
         "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/drawable-hdpi_help.png.flat",
         "source": "/home/mahbub/AndroidProjects/Smart-City/app/build/generated/res/pngs/debug/drawable-hdpi/help.png"
+    },
+    {
+        "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/layout_activity_help.xml.flat",
+        "source": "/home/mahbub/AndroidProjects/Smart-City/app/src/main/res/layout/activity_help.xml"
     },
     {
         "merged": "/home/mahbub/AndroidProjects/Smart-City/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",

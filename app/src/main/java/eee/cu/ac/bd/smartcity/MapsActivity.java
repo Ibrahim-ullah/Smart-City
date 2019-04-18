@@ -16,6 +16,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONArray;
@@ -74,8 +75,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                         // Add a marker in Sydney and move the camera
                                         LatLng pointers = new LatLng(Latitude, Longitude);
                                         Log.i("emon", String.valueOf(Latitude));
-                                        mMap.addMarker(new MarkerOptions().position(pointers).title(spot));
-
+                                   Marker marker =  mMap.addMarker(new MarkerOptions().position(pointers).title(spot));
+                                   marker.showInfoWindow();
                                     }
 
 

@@ -153,10 +153,10 @@ public final class R {
         public static final int place_autocomplete_separator = 0x7f0800a2;
         public static final int radio = 0x7f0800a6;
         public static final int satellite = 0x7f0800ab;
-        public static final int standard = 0x7f0800d3;
-        public static final int terrain = 0x7f0800de;
-        public static final int text = 0x7f0800df;
-        public static final int text2 = 0x7f0800e0;
+        public static final int standard = 0x7f0800d4;
+        public static final int terrain = 0x7f0800df;
+        public static final int text = 0x7f0800e0;
+        public static final int text2 = 0x7f0800e1;
         public static final int wide = 0x7f080100;
         public static final int wrap_content = 0x7f080103;
     }
@@ -168,10 +168,10 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int place_autocomplete_fragment = 0x7f0b0046;
-        public static final int place_autocomplete_item_powered_by_google = 0x7f0b0047;
-        public static final int place_autocomplete_item_prediction = 0x7f0b0048;
-        public static final int place_autocomplete_progress = 0x7f0b0049;
+        public static final int place_autocomplete_fragment = 0x7f0b0047;
+        public static final int place_autocomplete_item_powered_by_google = 0x7f0b0048;
+        public static final int place_autocomplete_item_prediction = 0x7f0b0049;
+        public static final int place_autocomplete_progress = 0x7f0b004a;
     }
     public static final class string {
         private string() {}

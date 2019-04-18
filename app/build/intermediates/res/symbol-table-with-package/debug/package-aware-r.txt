@@ -1355,6 +1355,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_map
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1411,7 +1412,6 @@ id up
 id useLogo
 id view_offset_helper
 id visible
-id wb
 id wide
 id withText
 id wrap
@@ -1467,6 +1467,7 @@ layout abc_tooltip
 layout activity_contact
 layout activity_details
 layout activity_feeds
+layout activity_help
 layout activity_main
 layout activity_maps
 layout activity_start

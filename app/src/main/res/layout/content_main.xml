@@ -113,6 +113,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:onClick="pointermap"
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
@@ -126,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Problems Category"/>
+                    android:text="See all problems in Map"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -204,6 +205,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:onClick="Help"
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView

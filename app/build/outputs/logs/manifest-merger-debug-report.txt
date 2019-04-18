@@ -98,29 +98,29 @@ MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/mahbub/.grad
 	android:name
 		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:13:5-69
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:13:5-68
 	android:name
 		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:13:22-65
 uses-feature#android.hardware.camera
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:20:5-22:35
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:19:5-21:35
 	android:required
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:22:9-32
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:21:9-32
 	android:name
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:21:9-47
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:20:9-47
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:24:5-26:67
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:23:5-25:67
 	android:value
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:26:9-64
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:25:9-64
 	android:name
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:25:9-54
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:24:9-54
 meta-data#com.google.android.gms.version
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:27:5-29:65
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:26:5-28:65
 	android:value
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:29:9-62
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:28:9-62
 	android:name
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:28:9-54
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:27:9-54
 application
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:31:5-74:19
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:30:5-74:19
 MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/863f149af88ae5f0d3421cda64b69d12/AndroidManifest.xml:22:5-20
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.1] /home/mahbub/.gradle/caches/transforms-1/files-1.1/ImagePicker-1.0.1.aar/b55c814ea0b284e46a74f54c0d3e559e/AndroidManifest.xml:14:5-24:19
@@ -144,27 +144,31 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahbub/.gradl
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/mahbub/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7284345997f13a307ed1e6b19f0ff9/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:38:9-35
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:35:9-41
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:34:9-41
 	android:hardwareAccelerated
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:33:9-44
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:32:9-44
 	android:roundIcon
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:37:9-54
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:36:9-54
 	android:largeHeap
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:36:9-33
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:35:9-33
 	android:icon
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:34:9-43
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:33:9-43
 	android:allowBackup
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:32:9-35
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:38:9-40
+activity#eee.cu.ac.bd.smartcity.Help
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:39:9-51
+	android:name
+		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:39:19-39
 activity#eee.cu.ac.bd.smartcity.ContactActivity
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:40:9-62
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:40:9-53
 	android:name
 		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:40:19-50
 activity#eee.cu.ac.bd.smartcity.MainActivity
-ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:41:9-44:68
+ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:41:9-44:59
 	android:label
 		ADDED from /home/mahbub/AndroidProjects/Smart-City/app/src/main/AndroidManifest.xml:43:13-45
 	android:theme

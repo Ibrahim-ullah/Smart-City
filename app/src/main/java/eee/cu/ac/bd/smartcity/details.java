@@ -65,6 +65,7 @@ public class details extends AppCompatActivity {
         final int fint = Integer.parseInt(Id);
         final TextView name = (TextView) findViewById(R.id.dname);
         final TextView description = (TextView) findViewById(R.id.ddescription);
+        final TextView location = (TextView) findViewById(R.id.Dlo);
         final TextView title = (TextView) findViewById(R.id.dtitle);
         final TextView latlong = (TextView) findViewById(R.id.dlatlong);
         final ImageView imageView = findViewById(R.id.imageView);
@@ -105,7 +106,7 @@ public class details extends AppCompatActivity {
                                             description.setText(Description);
                                             title.setText(Title);
                                             latlong.setText(La + ", " + Lo);
-
+                                    location.setText(Location);
                                             loading.dismiss();
                                             Log.v("Got Values", Name);
 
